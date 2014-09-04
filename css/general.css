@@ -1,0 +1,56 @@
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: #f0f0f0;
+    font-size: 1em;
+}
+    
+body {
+    background-color: #fff;
+    font-family: 'Helvetica', sans-serif;
+    margin: auto;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px rgba(49, 49, 49, 0.5);
+}
+
+img {
+    border-bottom: 2px solid #d4d4d4;   
+}
+
+.flex-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+figcaption {
+    border-bottom: 2px solid #d4d4d4;  
+    padding: 1rem;
+}
+
+h1 {
+    color: #c31846;
+    border-bottom: 2px solid #d4d4d4;
+    padding: 1rem;
+}
+
+p {
+    margin: 1rem;  
+}
+
+blockquote {
+    background-color: #f2eeee;
+    border-bottom: 2px solid #d4d4d4;
+    border-top: 2px solid #d4d4d4;
+}
+
+
+
+    
+    
+    
