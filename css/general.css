@@ -12,6 +12,7 @@ html, body {
 body {
     background-color: #fff;
     font-family: 'Helvetica', sans-serif;
+    line-height: 1.4em;
     margin: auto;
     width: 80%;
     border-radius: 20px;
@@ -19,7 +20,7 @@ body {
 }
 
 img {
-    border-bottom: 2px solid #d4d4d4;   
+    border-bottom: 1px solid #d4d4d4;   
 }
 
 .flex-img {
@@ -29,13 +30,18 @@ img {
 }
 
 figcaption {
-    border-bottom: 2px solid #d4d4d4;  
+    border-bottom: 1px solid #d4d4d4;  
     padding: 1rem;
 }
 
 h1 {
-    color: #c31846;
-    border-bottom: 2px solid #d4d4d4;
+    color: #a22544;
+    border-bottom: 1px solid #d4d4d4;
+    padding: 1rem;
+}
+
+h2 {
+    color: #a22544;
     padding: 1rem;
 }
 
@@ -43,14 +49,55 @@ p {
     margin: 1rem;  
 }
 
-blockquote {
-    background-color: #f2eeee;
-    border-bottom: 2px solid #d4d4d4;
-    border-top: 2px solid #d4d4d4;
+section {
+    padding: 1rem;
 }
 
+blockquote p, .bg {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #d4d4d4;
+    border-top: 1px solid #d4d4d4;
+    padding: 1rem;
+    font-family: 'Times New Roman', serif;
+}
 
+footer {
+    text-align: right;
+}
 
-    
-    
-    
+cite {
+    margin-bottom: 1rem;
+    font-family: 'Times New Roman', serif;
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: 700;
+}
+
+ol {
+    margin-left: 2.4rem;
+}
+
+table {
+    margin-left: 0.85rem;
+}
+
+data {
+    margin-left: 1rem;
+}
+
+a {
+    color: #a22544;  
+}
+.tags a {
+    display: inline-block;
+    background-color: #e7cad1;
+    text-decoration: none;
+    padding: 0.3em;
+    border: 2px solid #a22544;
+    border-radius: 360px; 
+}   
